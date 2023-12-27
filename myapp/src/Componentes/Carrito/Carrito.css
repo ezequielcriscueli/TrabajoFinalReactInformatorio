@@ -1,0 +1,12 @@
+.btn{
+    width: 100% !important;
+    background-color: #4CCA5F !important;
+    color: white !important;
+    transition: all 1s ease !important;
+    padding:8px !important;
+    border:none !important;
+}
+
+.btn:hover{
+    background-color: #3C994A !important;
+}

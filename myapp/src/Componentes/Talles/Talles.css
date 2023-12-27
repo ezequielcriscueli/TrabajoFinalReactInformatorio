@@ -1,0 +1,44 @@
+.size{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+.size a{
+    color: blue;
+}
+
+.talles{
+    width:100%;
+    display:flex; 
+    justify-content:space-around;   
+
+}
+
+.talles button{
+    width:40px;
+    height:40px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer
+    
+}
+
+.talles button:hover{
+    background-color: black;
+    color: white;
+   
+}
+
+.talles button.active {
+  background-color:black;
+  color: white;
+}
+
+.select{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between
+}

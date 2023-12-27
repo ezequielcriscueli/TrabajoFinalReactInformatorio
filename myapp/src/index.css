@@ -1,0 +1,15 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  color:gray;
+  transition: all 1s ease;
+}
+
+a:hover{
+  color:black;
+  transform: scale(1.5)
+}

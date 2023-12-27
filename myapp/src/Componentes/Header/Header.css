@@ -1,0 +1,60 @@
+.logo img{
+  padding-top:1%;
+  width:40px;
+}
+
+.header{
+  display:flex;
+  align-items:center;
+  gap:30px
+}
+
+.links{
+  display:flex;
+  width:100%;
+  justify-content: flex-end;
+  gap:25px;
+}
+
+.btnlinks{
+  background-image: linear-gradient(
+    to right,
+    black,
+    black 50%,
+    black 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnlinks:before {
+  content: '';
+  background: #ECEADA;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+}
+
+.btnlinks:hover{
+  background-position: 0;
+}
+
+.btnlinks:hover::before {
+  width: 100%;
+}
+
+.icons{
+  display:flex;
+  justify-content: space-around;
+  gap:30px;
+}
+
+.heart:active, .heart:hover{
+  color:red
+}

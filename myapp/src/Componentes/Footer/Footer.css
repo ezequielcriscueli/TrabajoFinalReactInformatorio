@@ -1,0 +1,31 @@
+.footer{
+    display:flex;
+    align-items:center;
+    padding:.5% 3% 0;
+    bottom: 0;    
+}
+
+.linksfooter {
+    display:flex;
+    justify-content: flex-start;
+    gap:25px;
+}
+
+.redesfooter{
+    width: 100%;
+    display:flex;
+    justify-content:flex-end;
+    gap: 25px;    
+}
+
+.wpp{
+   position: fixed;
+   bottom: 30px;
+   right:20px;
+   font-size:2em;
+   color:green;
+}
+
+.wpp:hover{
+    color:green;
+}

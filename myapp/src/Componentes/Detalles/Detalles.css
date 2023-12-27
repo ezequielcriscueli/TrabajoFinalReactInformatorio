@@ -1,0 +1,15 @@
+.detalles{
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:15px;
+    padding:5%;
+    font-size:1.2em;
+    color:black;
+}
+
+.detalles p{
+    text-align:justify;
+}
+
